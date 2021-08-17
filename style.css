@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  #title {
+    margin: 0 auto;
+    text-align: center;
+    background: #B7ACA8;
+    height: 667px;
+    color: white;
+  }
+
+  #title_intro {
+    width: 318px;
+    margin: auto;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+  }
+
+  #intro_text >p, h1{
+    
+    padding: 5px;
+  }
+  #intro_text > h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Style Script', cursive;
+  }
+ 
+
+  #main_img_fl {
+    width: 216px;
+    height: 287px;
+    background-image: url(./img/1935647224_ffd3d772_G_1693.png);
+    margin: 0 auto;
+  }
+
+  #title_name {
+    padding: 60px;
+  }
+
+  #content {
+    width: 100%;
+    height: 600px;
+    /* background: #B7ACA8; */
+    background: linear-gradient(#B7ACA8 70%, #fff );
+  }
+
+  .box {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 70px;
+    color: #746b67;
+    
+    
+  }
+
+  .box p {
+    margin-top: 50px;
+    line-height: 40px;
+  }
+
+  /* 참고 */
+
+  .guestInfo {
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .guestInfo span{
+    font-size: 14px;
+  }
+  
+
+  #gallery .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  #gallery h2 {
+    margin-bottom: 30px;
+  }
+  
+  #gallery figure > img {
+    width: 100%;
+    display: block;
+  }
+  
+  #gallery .galleryList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #gallery .galleryList li {
+    /* (100% - 칼럼여백) / 칼럼수 */
+    width: calc((100% - 20px) / 3);
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 106px;
+  }
+  
+  /* 마지막 칼럼은 제거 */
+  #gallery .galleryList li:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  #gallery .galleryList li img {
+    width: 100%;
+    height: 106px;
+    object-fit: cover;
+  }
+  
+  #location {
+    text-align: center;
+    
+
+  }
+  /* 전화 */
+
+  
+#call {
+
+  height: 130px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 50px;
+
+}
+
+.phone > li > a > img {
+  width: 50px;
+  height: 50px;
+} 
+
+#call .phone {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#call .phone  li{
+  display: inline-block;
+}
+
+#call .phone  li:first-child {
+  margin-right: 50px;
+}
+
+#call .phone  li p{
+  margin-top: 10px;
+}
+
+.transfer {
+  margin: 40px;
+  text-align: center;
+}
+
+.transfer table {
+  
+  margin: 0 auto;
+}
